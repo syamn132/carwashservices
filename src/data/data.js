@@ -1,51 +1,15 @@
-import Dosa from "../images/dosa.jpg";
-import Chola from "../images/chhola.jpg";
-import Idli from "../images/idli.jpg";
-import MasalaDosa from "../images/masala.jpg";
-import Paneer from "../images/paneer.jpg";
-import Gujrati from "../images/gujrati.jpeg";
+import Banner from "../images/car-wash.webp";
+import Image1 from "../images/who-we-are-image.jpg";
 
-export const MenuList = [
-  {
-    name: "Dosa",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Dosa,
-    price: 200,
-  },
-  {
-    name: "Chola",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Chola,
-    price: 250,
-  },
-  {
-    name: "Idli Sambhar",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Idli,
-    price: 300,
-  },
-  {
-    name: "Masala Dosa",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: MasalaDosa,
-    price: 100,
-  },
-  {
-    name: "Paneer",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Paneer,
-    price: 400,
-  },
-  {
-    name: "Gujrati",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Gujrati,
-    price: 500,
-  },
-];
+const Data1 = {
+    selectPackageImg: "https://cdn-icons-png.flaticon.com/512/7128/7128663.png",
+    bgcImage: Banner,
+    moreAboutUsImage: Image1,
+    ourTeambgcImage: "https://www.endurancewarranty.com/wp-content/uploads/2021/07/Car-Washing.jpg",
+    bookAppointmentImg: "https://avanospainmanagement.com/wp-content/uploads/2020/09/RF-Authority-24-Months-Icon.jpg",
+    selectPackageImg: "https://cdn-icons-png.flaticon.com/512/7128/7128663.png",
+    enjoyDriveImg: "https://images.vexels.com/media/users/3/128344/isolated/preview/db78e775b69cf5828579ad56a34f6705-orange-circle-retro-car-by-vexels.png",
+}
+
+
+export default Data1;
